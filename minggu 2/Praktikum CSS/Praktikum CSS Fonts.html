@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<style>
+p.serif {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+p.italic {
+  font-style: italic;
+}
+p.normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
+h1 {
+  font-size: 0.875em; /* 14px/16=0.875em */
+}
+p.thicker {
+  font-weight: 900;
+}
+</style>
+</head>
+<body>
+
+<p class="serif">This is a paragraph, shown in the Times New Roman font.</p>
+<p class="italic">This is a paragraph in italic style.</p>
+<p class="thicker">This is a paragraph.</p>
+<p class="normal">My name is Hege Refsnes.</p>
+<p class="small">My name is Hege Refsnes.</p>
+
+<h1>Specifying the font-size in em allows all major browsers to resize the text.
+Unfortunately, there is still a problem with older versions of IE. When resizing the text, it becomes larger/smaller than it should.</h1>
+
+<h2 style="font-size:10vw;">Responsive Text</h2>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+
+</body>
+</html>
